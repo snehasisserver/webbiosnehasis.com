@@ -85,6 +85,10 @@ button{
     font-family: cursive;
     font-size: 30px;
 }
+#books{
+    text-align: center;
+    font-size: 25px;
+}
 
 
 
@@ -107,11 +111,63 @@ button{
     padding-top: 5px;
     font-family: fantasy;
     font-size: 20px;
+    
 }
 .links:hover{
     background-color: blue;
 }
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 
+#img1{
+   margin-top: 30px;
+    border-radius: 20px;
+}
+#apps{
+    width:100%;
+    height: 800px;
+    background-color: lightcoral;
+    padding-top:30px;
+}
+#games{
+    width: 100%;
+    height: 800px;
+    background-color:lightblue;
+    padding-top: 30px;
+}
+.line{
+    width:70px;
+    height:6px;
+    margin: 8px auto;
+    background-color: darkred;
+    
+}
+#imgg{
+    transition: transform .2s;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#imgg:hover{
+    transform: scale(0.9);
+}
+#chat{
+    background-color: chocolate;
+    padding-top: 50px;
+  
+    width: 100%;
+    height: 800px;
+}
+#myw{
+    text-align: center;
+}
+#books{
+    margin-bottom: 100px;
+}
 
 
 
